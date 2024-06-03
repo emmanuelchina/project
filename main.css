@@ -104,21 +104,34 @@
 .man {
     height: 100vh;
 }
-
+@keyframes slow {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 .pious {
     background-color: black;
     color: white;
     border-top: 7px solid rgb(228, 76, 101);
-    margin-top: 19.3%;
-    height: 381px;
+    margin-top: 342px;
+    height: 300px;
     line-height: 30px;
-    justify-content: center;
+    padding: 15px;
+    animation: slow;
+    animation-duration: 7s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
 }
 
 .pious p {
     color: white;
     font-size: large;
-    margin-top: 100px;
     margin-left: 180px;
 }
 
@@ -127,9 +140,10 @@
     display: flow-root;
     float: left;
     font-size: 40px;
-    margin-right: 60px;
+    margin-right: 50px;
     font-weight: bolder;
     color: purple;
+    margin-top: 15px;
 }
 
 .third {
@@ -152,6 +166,18 @@
     width: 30%;
     height: 100vh;
 }
+@keyframes slow2{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
 
 .wick {
     border: 1px solid;
@@ -161,6 +187,10 @@
     border-left: 5px solid yellow;
     border-bottom: black;
     overflow-y: scroll;
+    animation: slow2;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 .wick h2 {
