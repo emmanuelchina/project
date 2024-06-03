@@ -521,7 +521,7 @@ a{
     text-decoration: none;
     color: white;
 }
-a:hover{
+/* a:hover{
     background-color: blue;
     color: blue;
     text-decoration: none;
@@ -529,7 +529,7 @@ a:hover{
 a:visited{
     text-decoration: none;
     color: white;
-}
+} */
 .map{
     padding: 15px;
 }
@@ -706,4 +706,15 @@ a:visited{
 }
 .vent p{
     padding: 5px;
+}
+.if{
+    color: white;
+}
+.if:visited{
+    color: white;
+    text-decoration: none;
+}
+.if:hover{
+    color: brown;
+    text-decoration: none;
 }
