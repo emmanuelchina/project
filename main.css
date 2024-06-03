@@ -125,8 +125,9 @@
     padding: 15px;
     animation: slow;
     animation-duration: 7s;
-    animation-delay: 1s;
+    animation-delay: 3s;
     animation-fill-mode: both;
+    animation-play-state: running;
 }
 
 .pious p {
@@ -189,8 +190,9 @@
     overflow-y: scroll;
     animation: slow2;
     animation-duration: 8s;
-    animation-delay: 1s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
+    animation-play-state: running;
 }
 
 .wick h2 {
