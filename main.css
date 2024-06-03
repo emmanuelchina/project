@@ -1,0 +1,709 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+@keyframes church {
+    0% {
+        background-image: url(image/church-2661906_640.jpg);
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url(image/church-4000350_640.jpg);
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(image/church-7744547_640.jpg);
+        background-size: cover;
+    }
+
+    75% {
+        background-image: url(image/stained-glass-window-180279_640.jpg);
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(image/church-3460420_640.jpg);
+        background-size: cover;
+    }
+
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    background-color: black;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    animation-name: church;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    background-blend-mode: screen;
+}
+
+.one {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100%;
+    color: white;
+    padding: 15px;
+}
+
+.two {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.one h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 150px;
+    padding: 15px;
+}
+
+.glass {
+    border-radius: 500%;
+    position: absolute;
+    left: 8%;
+    top: 3%;
+}
+
+.mary {
+    position: absolute;
+    top: 30%;
+    margin-left: 10%;
+}
+
+.about {
+    background-color: yellow;
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/love-699480_640.jpg);
+    background-size: cover;
+}
+
+.man {
+    height: 100vh;
+}
+
+.pious {
+    background-color: black;
+    color: white;
+    border-top: 7px solid rgb(228, 76, 101);
+    margin-top: 19.3%;
+    height: 381px;
+    line-height: 30px;
+    justify-content: center;
+}
+
+.pious p {
+    color: white;
+    font-size: large;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
+.us {
+    writing-mode: vertical-lr;
+    display: flow-root;
+    float: left;
+    font-size: 40px;
+    margin-right: 60px;
+    font-weight: bolder;
+    color: purple;
+}
+
+.third {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image/cross-4062996_640.jpg);
+    background-size: cover;
+}
+
+.third1 {
+    background-color: none;
+    width: 70%;
+    height: 100vh;
+}
+
+.third2 {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 30%;
+    height: 100vh;
+}
+
+.wick {
+    border: 1px solid;
+    display: s;
+    height: 641px;
+    padding: 10px;
+    border-left: 5px solid yellow;
+    border-bottom: black;
+    overflow-y: scroll;
+}
+
+.wick h2 {
+    color: yellow;
+}
+
+.wick p {
+    color: white;
+}
+
+.wick h1 {
+    text-align: center;
+    color: white;
+}
+
+.wick hr {
+    border-color: yellow;
+    color: yellow;
+}
+
+.four {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image/mountain-8451604_640.jpg);
+    background-size: cover;
+}
+
+.four1 {
+    height: 100vh;
+}
+
+.amet {
+    height: 800px;
+    width: 450px;
+    border-right: 5px solid green;
+    padding: 10px;
+    padding-top: 90px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+
+}
+
+.amet h2 {
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.amet h6 {
+    margin-left: 100px;
+    font-size: large;
+}
+
+.amet p {
+    margin-left: 100px;
+    font-size: large;
+    color: gray;
+}
+
+.more {
+    padding: 15px;
+    border-radius: 8%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.sed {
+    height: 60vh;
+    background-color: black;
+    border-top: 5px solid;
+}
+
+.sed1 {
+    height: 60vh;
+    display: flex;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.card {
+    text-align: center;
+    border: 10px solid blue;
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+}
+
+.odo {
+    height: 100vh;
+    background-color: rgb(28, 29, 38);
+}
+
+.odo1 {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.odo1 h1 {
+    margin-top: 50px;
+}
+
+.morE {
+    padding: 15px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+.col p {
+    color: gray;
+}
+
+.mag {
+    height: auto;
+    background-color: rgb(228, 76, 101);
+}
+
+.mag1 {
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.mag1 h2 {
+    margin-top: 50px;
+}
+.mag1 p {
+    margin-top: 50px;
+}
+
+.started {
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.admin {
+    height: auto;
+    background-color:rgb(25, 26, 36);
+    display: flex;
+}
+
+.admin1{
+    height: auto;
+    width: 25vw;
+    background-color: rgb(25, 26, 36);
+}
+
+.admin2 {
+    background-color: rgb(25, 26, 36);
+    height:auto;
+    width: 50vw;
+    color: white;
+}
+.admin2 h1{
+    padding: 5px;
+}
+.admin2 h2{
+    padding: 5px;
+}
+.admin2 h3{
+    padding: 5px;
+}
+.admin2 p{
+    padding: 5px;
+}
+.admin3 {
+    background-color: rgb(25, 26, 36);
+    height:auto;
+    width: 25vw;
+}
+
+.information {
+    color: gray;
+    cursor: pointer;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: larger;
+}
+.information p{
+    padding: 15px;
+}
+
+.ccrn {
+    margin-left: 60%;
+}
+
+.help {
+    position: absolute;
+    margin-left: 11%;
+    margin-top: 10px;
+}
+
+.li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+    color: white;
+    padding-top: 5px;
+    padding-left: 0%;
+}
+.li p{
+    padding-right: 0%;
+}
+.ry {
+    padding: 10px;
+    border-left: 2px solid white;
+    color: white;
+    position: fixed;
+    margin-top: 25px;
+}
+.ry p{
+   margin: 10px;
+   margin-top: 15px;
+}
+
+.po {
+    padding: 10px;
+    border-radius: 10px;
+    width: 90px;
+    color: white;
+    background-color: blue;
+    margin-top: 10px;
+}
+
+.de {
+    padding: 10px;
+    border-radius: 10px;
+    width: 90px;
+    margin-left: 10px;
+    color: white;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.ho {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    color: white;
+    padding-right: 0%;
+}
+.ho p{
+    padding-right: 0%;
+}
+
+.dae {
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 10px;
+    color: white;
+    background-color: green;
+}
+
+.ete {
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 10px;
+    color: white;
+    background-color: red;
+}
+
+.joh {
+    padding: 10px;
+    overflow-y: scroll;
+    border: 2px solid white;
+    height: 300px;
+    width: 600px;
+}
+.no{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.mit{
+    padding: 10px;
+    width: 20%;
+    color: black;
+    background-color: white;
+    margin-bottom: 13px;
+}
+.london{
+    padding: 10px;
+    overflow-y: scroll;
+    border: 2px solid white;
+    height: 300px;
+    width: 600px;
+    overflow-x: none;
+}
+.widget{
+    display: flex;
+    border: 1px solid white;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    background-color: rgb(25, 26, 36);
+    color: white;
+    padding: 5px;
+}
+.icon p{
+    margin-left: 50px;
+    padding: 10px;
+}
+.apps{
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.ryan{
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.set{
+    width: 25vw;
+    background-color: rgb(25, 26, 36);
+    padding: 5px;
+    color: white;
+}
+.back{
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 22px;
+}
+.apple{
+ position: absolute;
+ margin-top: 5px;
+ margin-left: 10px;
+}
+.visit{
+    border: 1px solid white;
+    padding: 7px;
+}
+.visit1{
+    background-color: rgb(150, 157, 162);
+    color: white;
+    width: 25vw;
+    border-radius: 10px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: blue;
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+.map{
+    padding: 15px;
+}
+.gall{
+    height: auto;
+    display: flex;
+    background-color:rgb(25, 26, 36);
+}
+.gall1{
+    width:55vw ;
+    height: auto;
+    background-color: rgb(25, 26, 36);
+    color: white;
+    /* padding: 10px; */
+    margin: 10px;
+}
+.gall2{
+    width: 45vw;
+    height: auto;
+    background-color: rgb(25, 26, 36);
+    color: white;
+    margin: 10px;
+}
+.gallimg{
+    position: absolute;
+    margin-left: 6%;
+}
+.c12{
+    display: flex;
+    justify-content: space-between;
+   padding-right: 20px;
+   margin-left: 22%;
+}
+.losa{
+    margin-left: 28%;
+    padding: 10px;
+    width: 480px;
+   margin-top: 25px;
+}
+.losa h2{
+    margin-left: 1px;
+}
+.losa p{
+    padding: 6px;
+}
+.lon1{
+    border-radius: 10px;
+}
+.galbutton{
+    justify-content: center;
+    background-color: transparent;
+    color: blue;
+    padding: 15px;
+    width: 170px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    margin-top: 15px;
+}
+.galbutton:hover{
+    background-color: rgb(11, 94, 215);
+    color: white;
+}
+
+.galdel{
+    color: blue;
+    background-color:transparent ;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+}
+.galdel:hover{
+    background-color: rgb(11, 94, 215);
+    color: white;
+}
+.galadmin{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+}
+.gall2 h2{
+    border-left: 2px solid blue;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.galadmin:hover{
+    color: brown;
+}
+@keyframes simple {
+    0% {
+        background-image: url(image/building-7014904_640.jpg);
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url(image/london-7965770_640.jpg);
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(image/skyline-8265564_640.jpg);
+        background-size: cover;
+    }
+
+    75% {
+        background-image: url(image/architecture-140785_640.jpg);
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(image/london-bridge-2324875_640.jpg);
+        background-size: cover;
+    }
+}
+.sign{
+    height: auto;
+    background-image: url(image/architecture-140785_640.jpg);background-size: cover;
+    display: flex;
+    animation-name: simple;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    /* background-blend-mode: screen; */
+}
+.sign1{
+    height: 100vh;
+    justify-self: center;
+    background-color: transparent;
+    color: white;
+    width: 60vw;
+    padding: 10px;
+}
+.signimg{
+    position: absolute;
+    margin-left: 12%;
+}
+.sign2{
+    height:100vh;
+    width: 40vw;
+    background-color: transparent;
+    color: white;
+}
+.signup2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 100px;
+    padding: 10px;
+
+}
+.signc{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 30%;
+    color: white;
+}
+.vent{
+    margin-top: 150px;
+    font-size: larger;
+    margin-left: 40px;
+}
+.getst{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 40px;
+    background-color:rgb(28, 180, 149);
+    color: white;
+    border: 1px solid white;
+}
+.vent p{
+    padding: 5px;
+}
